@@ -44,7 +44,7 @@ set fileformat=unix
 " Whitelines
 " define BadWhitespace before using in a match
 highlight BadWhitespace ctermbg=red guibg=darkred
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+au BufRead,BufNewFile * match BadWhitespace /\s\+$/
 
 " utf8
 set encoding=utf-8
@@ -54,7 +54,7 @@ set encoding=utf-8
 "syntax on
 
 " ignore files in NERDTree
-let NERDTreeIgnore=['\.pyc$', '\~$'] 
+let NERDTreeIgnore=['\.pyc$', '\~$']
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
