@@ -59,4 +59,13 @@ autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
 
+" Attach and resize terminal below
+autocmd VimEnter * :bel terminal
+autocmd VimEnter * wincmd k
+autocmd VimEnter * wincmd _
+autocmd VimEnter * wincmd j
+autocmd VimEnter * 23 wincmd +
+autocmd VimEnter * wincmd k
+
+
 set nu
