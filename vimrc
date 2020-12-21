@@ -61,10 +61,8 @@ autocmd VimEnter * wincmd p
 
 " Attach and resize terminal below
 autocmd VimEnter * :bel terminal
-autocmd VimEnter * wincmd k
-autocmd VimEnter * wincmd _
 autocmd VimEnter * wincmd j
-autocmd VimEnter * 23 wincmd +
+autocmd VimEnter * 24 wincmd _
 autocmd VimEnter * wincmd k
 
 
