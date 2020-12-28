@@ -33,12 +33,12 @@ set foldlevel=99
 nnoremap <space> za
 
 " Indentation
-"set tabstop=4
-"set softtabstop=4
-"set shiftwidth=4
-"set textwidth=119
-"set expandtab
-"set autoindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set textwidth=119
+set expandtab
+set autoindent
 set fileformat=unix
 
 " Whitelines
