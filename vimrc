@@ -65,5 +65,5 @@ autocmd VimEnter * wincmd j
 autocmd VimEnter * 24 wincmd _
 autocmd VimEnter * wincmd k
 
-
 set nu
+set visualbell
