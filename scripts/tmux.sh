@@ -2,8 +2,11 @@
 #
 # Open a predefined tmux template with nvim and some panes.
 # Targets for "dev" directory under the current user home dir 
+# Uses the local directory by default
 
-cd ~/dev/$1
+if [ -n ]; then
+  cd ~/dev/$1
+fi
 
 tmux new-session \; \
   send-keys nvim C-m \; \
